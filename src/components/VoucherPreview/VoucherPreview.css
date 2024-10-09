@@ -1,0 +1,46 @@
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.voucher {
+  margin-top: 20px;
+}
+
+.header-voucher {
+  width: 100%;
+  max-width: max(50%, 500px);
+  margin: auto;
+  border: 1px solid rgb(229, 153, 153);
+  border-radius: 30px;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+.items {
+  text-align: left;
+  margin: 0px 0px 40px 100px;
+}
+
+.items span {
+  margin-left: 20px;
+  color: rgb(190, 28, 187);
+}
+
+.voucher button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.voucher button:hover {
+  background-color: #84b0df;
+}

@@ -1,0 +1,78 @@
+.header-form {
+  background-color: #f5f8fb;
+  padding: 20px 50px 20px 50px;
+  width: 100%;
+  max-width: max(40%, 500px);
+  margin: auto;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  animation: fadeIn 3s;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.03) rotate(0deg);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.multi-fields {
+  display: flex;
+  text-align: start;
+  justify-content: space-around;
+}
+
+.inp-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.multi-fields input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: rgb(74, 210, 210);
+}
+
+.date-inp {
+  font-family: sans-serif;
+  color: rgb(118, 112, 112);
+}
+
+.inp-label select {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: rgb(74, 210, 210);
+}
+
+.header-form .multi-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.header-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.header-form button:hover {
+  background-color: #6a9fd7;
+}
