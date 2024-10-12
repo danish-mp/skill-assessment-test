@@ -28,6 +28,7 @@
   border: 1px solid #c5c5c5;
   border-radius: 4px;
   outline-color: rgb(74, 210, 210);
+  box-sizing: border-box;
 }
 
 .detail-form button {
